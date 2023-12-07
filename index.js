@@ -15,7 +15,6 @@ function resultTrueVictories(v, d) {
     return result
 }
 function resultLevel(wb) {
-    let level = ""
     switch (wb > 0) {
         case (wb <= 10):
             level = "Ferro"
